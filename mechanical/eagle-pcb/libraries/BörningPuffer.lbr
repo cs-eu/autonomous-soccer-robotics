@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+ <settings>
+  <setting alwaysvectorfont="no"/>
+  <setting verticaltext="up"/>
+ </settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+ <layers>
+  <layer name="Top" color="4" visible="yes" active="yes" fill="1" number="1"/>
+  <layer name="Route2" color="16" visible="no" active="yes" fill="1" number="2"/>
+  <layer name="Route3" color="17" visible="no" active="yes" fill="1" number="3"/>
+  <layer name="Route4" color="18" visible="no" active="yes" fill="1" number="4"/>
+  <layer name="Route5" color="19" visible="no" active="yes" fill="1" number="5"/>
+  <layer name="Route6" color="25" visible="no" active="yes" fill="1" number="6"/>
+  <layer name="Route7" color="26" visible="no" active="yes" fill="1" number="7"/>
+  <layer name="Route8" color="27" visible="no" active="yes" fill="1" number="8"/>
+  <layer name="Route9" color="28" visible="no" active="yes" fill="1" number="9"/>
+  <layer name="Route10" color="29" visible="no" active="yes" fill="1" number="10"/>
+  <layer name="Route11" color="30" visible="no" active="yes" fill="1" number="11"/>
+  <layer name="Route12" color="20" visible="no" active="yes" fill="1" number="12"/>
+  <layer name="Route13" color="21" visible="no" active="yes" fill="1" number="13"/>
+  <layer name="Route14" color="22" visible="no" active="yes" fill="1" number="14"/>
+  <layer name="Route15" color="23" visible="no" active="yes" fill="1" number="15"/>
+  <layer name="Bottom" color="1" visible="yes" active="yes" fill="1" number="16"/>
+  <layer name="Pads" color="2" visible="yes" active="yes" fill="1" number="17"/>
+  <layer name="Vias" color="2" visible="yes" active="yes" fill="1" number="18"/>
+  <layer name="Unrouted" color="6" visible="yes" active="yes" fill="1" number="19"/>
+  <layer name="Dimension" color="24" visible="yes" active="yes" fill="1" number="20"/>
+  <layer name="tPlace" color="7" visible="yes" active="yes" fill="1" number="21"/>
+  <layer name="bPlace" color="7" visible="yes" active="yes" fill="1" number="22"/>
+  <layer name="tOrigins" color="15" visible="yes" active="yes" fill="1" number="23"/>
+  <layer name="bOrigins" color="15" visible="yes" active="yes" fill="1" number="24"/>
+  <layer name="tNames" color="7" visible="yes" active="yes" fill="1" number="25"/>
+  <layer name="bNames" color="7" visible="yes" active="yes" fill="1" number="26"/>
+  <layer name="tValues" color="7" visible="yes" active="yes" fill="1" number="27"/>
+  <layer name="bValues" color="7" visible="yes" active="yes" fill="1" number="28"/>
+  <layer name="tStop" color="7" visible="no" active="yes" fill="3" number="29"/>
+  <layer name="bStop" color="7" visible="no" active="yes" fill="6" number="30"/>
+  <layer name="tCream" color="7" visible="no" active="yes" fill="4" number="31"/>
+  <layer name="bCream" color="7" visible="no" active="yes" fill="5" number="32"/>
+  <layer name="tFinish" color="6" visible="no" active="yes" fill="3" number="33"/>
+  <layer name="bFinish" color="6" visible="no" active="yes" fill="6" number="34"/>
+  <layer name="tGlue" color="7" visible="no" active="yes" fill="4" number="35"/>
+  <layer name="bGlue" color="7" visible="no" active="yes" fill="5" number="36"/>
+  <layer name="tTest" color="7" visible="no" active="yes" fill="1" number="37"/>
+  <layer name="bTest" color="7" visible="no" active="yes" fill="1" number="38"/>
+  <layer name="tKeepout" color="4" visible="yes" active="yes" fill="11" number="39"/>
+  <layer name="bKeepout" color="1" visible="yes" active="yes" fill="11" number="40"/>
+  <layer name="tRestrict" color="4" visible="yes" active="yes" fill="10" number="41"/>
+  <layer name="bRestrict" color="1" visible="yes" active="yes" fill="10" number="42"/>
+  <layer name="vRestrict" color="2" visible="yes" active="yes" fill="10" number="43"/>
+  <layer name="Drills" color="7" visible="no" active="yes" fill="1" number="44"/>
+  <layer name="Holes" color="7" visible="no" active="yes" fill="1" number="45"/>
+  <layer name="Milling" color="3" visible="no" active="yes" fill="1" number="46"/>
+  <layer name="Measures" color="7" visible="no" active="yes" fill="1" number="47"/>
+  <layer name="Document" color="7" visible="yes" active="yes" fill="1" number="48"/>
+  <layer name="Reference" color="7" visible="yes" active="yes" fill="1" number="49"/>
+  <layer name="tDocu" color="7" visible="yes" active="yes" fill="1" number="51"/>
+  <layer name="bDocu" color="7" visible="yes" active="yes" fill="1" number="52"/>
+  <layer name="SimResults" color="9" visible="yes" active="yes" fill="1" number="88"/>
+  <layer name="SimProbes" color="9" visible="yes" active="yes" fill="1" number="89"/>
+  <layer name="Modules" color="5" visible="yes" active="yes" fill="1" number="90"/>
+  <layer name="Nets" color="2" visible="yes" active="yes" fill="1" number="91"/>
+  <layer name="Busses" color="1" visible="yes" active="yes" fill="1" number="92"/>
+  <layer name="Pins" color="2" visible="no" active="yes" fill="1" number="93"/>
+  <layer name="Symbols" color="4" visible="yes" active="yes" fill="1" number="94"/>
+  <layer name="Names" color="7" visible="yes" active="yes" fill="1" number="95"/>
+  <layer name="Values" color="7" visible="yes" active="yes" fill="1" number="96"/>
+  <layer name="Info" color="7" visible="yes" active="yes" fill="1" number="97"/>
+  <layer name="Guide" color="6" visible="yes" active="yes" fill="1" number="98"/>
+ </layers>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+ <package name="SOT65P212X110-5N">
+  <description>&lt;b>74HC1G125GW,125&lt;/b>&lt;br>&#xd;
+</description>
+  <smd dy="0.4" name="1" dx="1.05" x="-1" y="0.65" rot="R0" layer="1"/>
+  <smd dy="0.4" name="2" dx="1.05" x="-1" y="0" rot="R0" layer="1"/>
+  <smd dy="0.4" name="3" dx="1.05" x="-1" y="-0.65" rot="R0" layer="1"/>
+  <smd dy="0.4" name="4" dx="1.05" x="1" y="-0.65" rot="R0" layer="1"/>
+  <smd dy="0.4" name="5" dx="1.05" x="1" y="0.65" rot="R0" layer="1"/>
+  <text x="0" y="0" rot="R0" align="center" layer="25" size="1.27">>NAME</text>
+  <text x="0" y="0" rot="R0" align="center" layer="27" size="1.27">>VALUE</text>
+  <wire y2="1.375" width="0.05" x1="-1.775" y1="1.375" x2="1.775" layer="51"/>
+  <wire y2="-1.375" width="0.05" x1="1.775" y1="1.375" x2="1.775" layer="51"/>
+  <wire y2="-1.375" width="0.05" x1="1.775" y1="-1.375" x2="-1.775" layer="51"/>
+  <wire y2="1.375" width="0.05" x1="-1.775" y1="-1.375" x2="-1.775" layer="51"/>
+  <wire y2="1.025" width="0.1" x1="-0.625" y1="1.025" x2="0.625" layer="51"/>
+  <wire y2="-1.025" width="0.1" x1="0.625" y1="1.025" x2="0.625" layer="51"/>
+  <wire y2="-1.025" width="0.1" x1="0.625" y1="-1.025" x2="-0.625" layer="51"/>
+  <wire y2="1.025" width="0.1" x1="-0.625" y1="-1.025" x2="-0.625" layer="51"/>
+  <wire y2="1.025" width="0.1" x1="-0.625" y1="0.375" x2="0.025" layer="51"/>
+  <wire y2="1.025" width="0.2" x1="-0.125" y1="1.025" x2="0.125" layer="21"/>
+  <wire y2="-1.025" width="0.2" x1="0.125" y1="1.025" x2="0.125" layer="21"/>
+  <wire y2="-1.025" width="0.2" x1="0.125" y1="-1.025" x2="-0.125" layer="21"/>
+  <wire y2="1.025" width="0.2" x1="-0.125" y1="-1.025" x2="-0.125" layer="21"/>
+  <wire y2="1.1" width="0.2" x1="-1.525" y1="1.1" x2="-0.475" layer="21"/>
+ </package>
+</packages>
+<symbols>
+ <symbol name="74HC1G125GW,125">
+  <wire y2="2.54" width="0.254" x1="5.08" y1="2.54" x2="20.32" layer="94"/>
+  <wire y2="2.54" width="0.254" x1="20.32" y1="-7.62" x2="20.32" layer="94"/>
+  <wire y2="-7.62" width="0.254" x1="20.32" y1="-7.62" x2="5.08" layer="94"/>
+  <wire y2="-7.62" width="0.254" x1="5.08" y1="2.54" x2="5.08" layer="94"/>
+  <text x="21.59" y="7.62" align="center-left" layer="95" size="1.778">>NAME</text>
+  <text x="21.59" y="5.08" align="center-left" layer="96" size="1.778">>VALUE</text>
+  <pin direction="io" name="!OE" x="0" y="0" rot="R0" length="middle"/>
+  <pin direction="io" name="A" x="0" y="-2.54" rot="R0" length="middle"/>
+  <pin direction="io" name="GND" x="0" y="-5.08" rot="R0" length="middle"/>
+  <pin direction="io" name="Y" x="25.4" y="0" rot="R180" length="middle"/>
+  <pin direction="io" name="VCC" x="25.4" y="-2.54" rot="R180" length="middle"/>
+ </symbol>
+</symbols>
+<devicesets>
+ <deviceset name="74HC1G125GW,125" prefix="IC">
+  <description>&lt;b>NXP 74HC1G125GW,125 Buffer &amp; Line Driver, 3-State, 2  6 V, 5-Pin TSSOP&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G125.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" x="0" y="0" symbol="74HC1G125GW,125"/>
+  </gates>
+  <devices>
+   <device name="" package="SOT65P212X110-5N">
+    <connects>
+     <connect gate="G$1" pad="1" pin="!OE"/>
+     <connect gate="G$1" pad="2" pin="A"/>
+     <connect gate="G$1" pad="3" pin="GND"/>
+     <connect gate="G$1" pad="4" pin="Y"/>
+     <connect gate="G$1" pad="5" pin="VCC"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute name="Manufacturer_Name" constant="no" value="Nexperia"/>
+      <attribute name="Manufacturer_Part_Number" constant="no" value="74HC1G125GW,125"/>
+      <attribute name="Mouser_Part_Number" constant="no" value="771-74HC1G125GW-G"/>
+      <attribute name="Mouser_Price-Stock" constant="no" value="https://www.mouser.com/Search/Refine.aspx?Keyword=771-74HC1G125GW-G"/>
+      <attribute name="RS_Part_Number" constant="no" value="1038091"/>
+      <attribute name="RS_Price-Stock" constant="no" value="http://uk.rs-online.com/web/p/products/1038091"/>
+      <attribute name="Description" constant="no" value="NXP 74HC1G125GW,125 Buffer &amp; Line Driver, 3-State, 2  6 V, 5-Pin TSSOP"/>
+      <attribute name="Height" constant="no" value="1.1mm"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

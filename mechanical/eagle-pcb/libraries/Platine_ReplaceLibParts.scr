@@ -1,0 +1,72 @@
+# 'EAGLE Version 9.3.0 Copyright (c) 1988-2019 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Migrate parts to '/home/robotik/Dropbox/Robotik/Soccer2020/eagle/Börning libraries/Platine.lbr'
+USE -*;
+USE '/home/robotik/Dropbox/Robotik/Soccer2020/eagle/Börning libraries/Platine.lbr';
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+REPLACE ARDUINOKABEL1 T821140A1S100CEU_T821140A1S100CEU;
+REPLACE ARDUINOKABEL2 T821140A1S100CEU_T821140A1S100CEU;
+#
+# SHEET 2 - MIGRATE PARTS
+#
+EDIT .s2
+#
+# SHEET 3 - MIGRATE PARTS
+#
+EDIT .s3
+#
+# SHEET 4 - MIGRATE PARTS
+#
+EDIT .s4
+#
+# SHEET 5 - MIGRATE PARTS
+#
+EDIT .s5
+#
+# SHEET 6 - MIGRATE PARTS
+#
+EDIT .s6
+#
+# SHEET 7 - MIGRATE PARTS
+#
+EDIT .s7
+#
+# SHEET 8 - MIGRATE PARTS
+#
+EDIT .s8
+#
+# SHEET 9 - MIGRATE PARTS
+#
+EDIT .s9
+#
+# SHEET 10 - MIGRATE PARTS
+#
+EDIT .s10
+#
+# SHEET 11 - MIGRATE PARTS
+#
+EDIT .s11
+#
+# SHEET 12 - MIGRATE PARTS
+#
+EDIT .s12
+#
+# SHEET 13 - MIGRATE PARTS
+#
+EDIT .s13
+#
+# SHEET 14 - MIGRATE PARTS
+#
+EDIT .s14
+#
+# SHEET 15 - MIGRATE PARTS
+#
+EDIT .s15
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;
